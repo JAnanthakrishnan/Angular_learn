@@ -1,0 +1,10 @@
+.form{
+    display: flex;
+}
+input[type=text]{
+    padding: 10px;
+    flex:10;
+}
+input[type=submit]{
+    flex: 2;
+}

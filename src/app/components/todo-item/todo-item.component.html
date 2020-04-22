@@ -1,0 +1,7 @@
+<div >
+    <div class = "todo item">
+        <li [ngClass]=setClasses()>{{todoItem.title}}</li>
+        <button (click)="onToggle(todoItem)" class="toggle" >Toggle</button>
+        <button (click)="onDelete(todoItem)" class="del">x</button>
+    </div>
+</div>
